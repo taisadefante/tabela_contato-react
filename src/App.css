@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background: rgb(189, 183, 183);
+}
+
+.titulo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulo img {
+  width: 10%;
+  margin: 0 auto;
+}
+
+.titulo h1 {
+  margin: 0 40%;
+  padding: 10px;
+}
+
+/* Formulario*/
+form {
+  margin: 20px 0;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+/*Tabela*/
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  cursor: pointer;
+}
+
+img {
+  width: 20px;
+}
+
+/*Paginação*/
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  color: gray;
+  cursor: pointer;
+}
+
+.page-link:hover {
+  color: gray;
+  background: white;
+}
+
+.page-item.active .page-link {
+  color: black;
+}
+
+.page-item.active .page-link:hover {
+  color: gray;
+  background: white;
+}
